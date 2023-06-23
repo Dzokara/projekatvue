@@ -37,11 +37,6 @@ export default {
         role: ["admin","user","unauthorized"]
       },
       {
-        path: "/book",
-        text: "Book",
-        role: ["admin","user","unauthorized"]
-      },
-      {
         path: "/admin",
         text: "Admin",
         role: ["admin"]

@@ -8,7 +8,6 @@ import HeadComponent from './components/Head.vue';
 import FooterComponent from './components/Footer.vue';
 import NavComponent from './components/Nav.vue';
 import About from './components/About.vue';
-import Book from './components/Book.vue';
 import Home from './components/Home.vue';
 import Menu from './components/Menu.vue';
 import Login from './components/Login.vue';
@@ -41,10 +40,6 @@ const routes = [
   {
     path: '/about',
     component: About
-  },
-  {
-    path: '/book',
-    component: Book
   },
   {
     path: '/admin',

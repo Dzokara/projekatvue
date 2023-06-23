@@ -239,9 +239,9 @@
                     are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
                     the middle of text. All
                   </p>
-                  <a href="">
+                  <router-link to="/about">
                     Read More
-                  </a>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -250,61 +250,6 @@
       
         <!-- end about section -->
       
-        <!-- book section -->
-        <section class="book_section layout_padding">
-          <div class="container">
-            <div class="heading_container">
-              <h2 class="mx-auto">
-                Book A Table
-              </h2>
-            </div>
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <div class="form_container">
-                  <form action="">
-                    <div>
-                      <input type="text" class="form-control" placeholder="Your Name" />
-                    </div>
-                    <div>
-                      <input type="text" class="form-control" placeholder="Phone Number" />
-                    </div>
-                    <div>
-                      <input type="email" class="form-control" placeholder="Your Email" />
-                    </div>
-                    <div>
-                      <select class="form-control nice-select wide">
-                        <option value="" disabled selected>
-                          How many persons?
-                        </option>
-                        <option value="">
-                          2
-                        </option>
-                        <option value="">
-                          3
-                        </option>
-                        <option value="">
-                          4
-                        </option>
-                        <option value="">
-                          5
-                        </option>
-                      </select>
-                    </div>
-                    <div>
-                      <input type="date" class="form-control">
-                    </div>
-                    <div class="btn_box">
-                      <button>
-                        Book Now
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- end book section -->
       
         
     </div>

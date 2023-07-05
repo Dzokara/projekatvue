@@ -30,7 +30,6 @@
             placeholder="0611234567"
           />
           <div class="payment-methods">
-            <h4>Select Payment Method:</h4>
             <RadioGroup
                 :options="radioData"
                 label="Select Payment Method:"

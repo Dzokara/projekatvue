@@ -13,6 +13,8 @@ import Menu from './components/Menu.vue';
 import Login from './components/Login.vue';
 import Admin from './components/Admin.vue';
 import Register from './components/Register.vue';
+import Cart from './components/Cart.vue';
+import Checkout from './components/Checkout.vue';
 import store from "./store/store"
 import RoleDirective from "./directives/RoleDirective.js"
 import EditProduct from './components/EditProduct.vue';
@@ -48,6 +50,14 @@ const routes = [
   {
     path: '/register',
     component: Register
+  },
+  {
+    path: '/cart',
+    component: Cart
+  },
+  {
+    path: '/checkout',
+    component: Checkout
   },
   {
     path: '/login',

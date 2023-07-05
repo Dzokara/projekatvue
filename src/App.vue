@@ -47,6 +47,11 @@ export default {
         role: ["unauthorized"]
       },
       {
+        path: "/cart",
+        text: "Cart",
+        role: ["admin","user","unauthorized"]
+      },
+      {
         path: "/login",
         text: "Login",
         role: ["unauthorized"]
